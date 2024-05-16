@@ -1,0 +1,173 @@
+.borderPane {
+    -fx-background-color: #4f505c;
+}
+
+.aboutPopup, .addEdit {
+    -fx-background-color: #4f505c;
+    -fx-border-color: #6b6b6e;
+}
+
+.titleBar {
+    -fx-background-color: #62636e;
+}
+
+.gameVBox {
+    -fx-background-color: #9ea0a8 !important;
+    -fx-background-radius: 5;
+}
+
+.translateVBox {
+    -fx-background-color: #9ea0a8 !important;
+    -fx-background-radius: 10;
+}
+
+.dictionaryWordInfoPane {
+    -fx-background-color: #9ea0a8 !important;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-max-width: infinity;
+    -fx-background-color: #62636e;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+}
+
+#button_minimize:hover {
+    -fx-background-color: #757680;
+}
+
+#button_close:hover, #editCloseButton:hover, #addCloseButton:hover, #popupCloseButton:hover {
+    -fx-background-color: #e81123;
+}
+
+.tabButton {
+    -fx-background-color: #62636e;
+    -fx-background-radius: 10;
+}
+
+.list-cell {
+    -fx-background-radius: 10;
+    -fx-background-color: #9ea0a8;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-radius: 10;
+    -fx-background-color: #9ea0a8;
+}
+
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow {
+    -fx-padding: 0 20 0 0;
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-pref-width: 8;
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #4f505c;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #62636e;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.text-area .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: #797d85 !important;
+    -fx-background-radius: 10;
+}
+
+.text-area .scroll-bar:vertical {
+    -fx-pref-width: 1;
+    -fx-opacity: 0;
+}
+
+.translateEngVieLabel {
+    -fx-background-color: #797d85 !important;
+    -fx-background-radius: 10;
+    -fx-border-color:  #62636e !important;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+
+.text-field {
+    -fx-background-color: #797d85 !important;
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+}
+
+#dictionary_box .content {
+    -fx-cursor: default;
+}
+
+#member_list .content {
+    -fx-cursor: default;
+    -fx-background-image: url('../images/popUpBG_2.png') !important;
+    -fx-background-radius: 10;
+}
+
+#translation_box {
+    -fx-border-color: #4f505c !important;
+    -fx-border-radius: 12;
+    -fx-border-width: 2;
+    -fx-accent: #4f505c !important;
+}
+
+#translation_box .content {
+    -fx-background-color: #c3c5c9 !important;
+}
+
+#translation_box .text-input, .text-input:focused {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.editCancelButton {
+    -fx-background-color: #797d85;
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.editOkayButton {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #62636e;
+    -fx-background-radius: 5;
+    -fx-border-color: #62636e;
+    -fx-border-radius: 5;
+}
+
+.dialogBorderPane {
+    -fx-background-color: #9ea0a8;
+    -fx-border-color: #6b6b6e;
+}
+
+.dialogLine {
+    -fx-stroke: #62636e;
+}
+
+.toolTip {
+    -fx-background-color: #62636e;
+}

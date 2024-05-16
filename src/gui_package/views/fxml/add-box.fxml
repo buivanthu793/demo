@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="addBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#titleBarDragged" onMousePressed="#titleBarPressed" prefHeight="610.0" prefWidth="560.0" styleClass="addEdit" stylesheets="@../css/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_package.controllers.EditAddController">
+    <center>
+        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="540.0" spacing="3.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="10.0" layoutY="14.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" text="• Word:">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Label>
+                <TextField fx:id="addWordTarget" layoutX="10.0" layoutY="38.0" maxHeight="-Infinity" minHeight="-Infinity" pickOnBounds="false" prefHeight="30.0" promptText="Example" stylesheets="@../css/lightMode.css">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </TextField>
+                <Line endX="540.0" layoutX="11.0" layoutY="77.0" />
+                <Label maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" text="• Word Type:">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="addWordType" maxHeight="-Infinity" minHeight="-Infinity" pickOnBounds="false" prefHeight="30.0" promptText="Example" stylesheets="@../css/lightMode.css">
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font></TextField>
+                <Line endX="540.0" />
+                <Label layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" text="• Pronunciation:">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="addWordPronunciation" layoutX="22.0" layoutY="39.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" promptText="Example" stylesheets="@../css/lightMode.css">
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </TextField>
+                <Line endX="540.0" layoutX="111.0" layoutY="82.0" />
+                <Label layoutX="10.0" layoutY="82.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" text="• Meaning:">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextArea fx:id="addWordMeaning" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="541.0" promptText="Example" stylesheets="@../css/lightMode.css" wrapText="true">
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font></TextArea>
+                <Line endX="540.0" layoutX="111.0" layoutY="82.0">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin></Line>
+                <Label layoutX="10.0" layoutY="130.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" text="• Example:">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextArea fx:id="addWordExample" layoutX="10.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="541.0" promptText="Example" stylesheets="@../css/lightMode.css" wrapText="true">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font></TextArea>
+            </children>
+            <BorderPane.margin>
+                <Insets left="12.0" right="12.0" />
+            </BorderPane.margin>
+        </VBox>
+    </center>
+    <top>
+        <HBox fx:id="addHBox" alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="40.0" prefWidth="560.0" styleClass="titleBar" stylesheets="@../css/lightMode.css" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/logo.png" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="4.0" />
+                    </HBox.margin>
+                </ImageView>
+                <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="525.0" text="Add Word" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="4.0" />
+                    </HBox.margin>
+                </Label>
+                <Button id="addCloseButton" fx:id="addCloseButton" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#close" onMouseEntered="#close_button_highlight" onMouseExited="#close_button_reset" prefHeight="32.0" prefWidth="48.0" stylesheets="@../css/lightMode.css">
+                    <graphic>
+                        <ImageView id="button_close" fx:id="button_close_icon" fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/button_close.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <HBox.margin>
+                        <Insets top="-8.0" />
+                    </HBox.margin>
+                </Button>
+            </children>
+        </HBox>
+    </top>
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="560.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="cancelButton" defaultButton="true" layoutX="264.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#close" prefHeight="30.0" prefWidth="80.0" styleClass="editCancelButton" stylesheets="@../css/lightMode.css" text="Huỷ" textFill="#77a4ed">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="setEditButton" layoutX="290.0" layoutY="18.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addWord" prefHeight="30.0" prefWidth="80.0" styleClass="editOkayButton" stylesheets="@../css/lightMode.css" text="Okay" textFill="WHITE">
+                    <HBox.margin>
+                        <Insets left="140.0" right="20.0" />
+                    </HBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+            </children>
+            <BorderPane.margin>
+                <Insets bottom="4.0" top="-16.0" />
+            </BorderPane.margin>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="178.0" prefWidth="480.0" styleClass="dialogBorderPane" stylesheets="@../css/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_package.controllers.DialogController">
+   <top>
+      <Pane fx:id="dialogPane" prefHeight="10.0" prefWidth="200.0" styleClass="titleBar" stylesheets="@../css/lightMode.css" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="360.0" BorderPane.alignment="CENTER_LEFT">
+         <children>
+            <Label fx:id="title" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" text="DIALOG_TYPE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="message" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="348.0" text="Dialog message which either asks you to confirm an action or to alert you of an error. This message can also be abnormally long, depends on the developer, of course" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets right="12.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets top="8.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <left>
+      <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="24.0" right="12.0" top="8.0" />
+         </BorderPane.margin>
+         <image>
+            <Image url="@../images/information.png" />
+         </image>
+      </ImageView>
+   </left>
+   <bottom>
+      <VBox prefHeight="50.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Line endX="478.0" stroke="#bfd9ff" strokeWidth="2.0" styleClass="dialogLine">
+               <VBox.margin>
+                  <Insets bottom="-2.0" />
+               </VBox.margin>
+            </Line>
+            <HBox alignment="CENTER_RIGHT" maxWidth="-Infinity" prefHeight="50.0" prefWidth="480.0">
+               <children>
+                  <Button fx:id="button_cancel" defaultButton="true" mnemonicParsing="false" onAction="#cancel" prefHeight="30.0" prefWidth="100.0" styleClass="editCancelButton" stylesheets="@../css/lightMode.css" text="Cancel" textFill="#77a4ed">
+                     <HBox.margin>
+                        <Insets right="8.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button_okay" mnemonicParsing="false" onAction="#okay" prefHeight="32.0" prefWidth="100.0" styleClass="editOkayButton" stylesheets="@../css/lightMode.css" text="Okay" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets right="12.0" top="2.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

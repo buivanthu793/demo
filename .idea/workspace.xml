@@ -5,6 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fd17891-228c-4aa3-bed3-9ed7cef8b42d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/DialogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/EditAddController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/PopupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/SoundController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/TranslatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/wordleEndController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/controllers/wordleStatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/models/MainModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/models/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/models/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/services/googleTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/services/tts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/css/darkMode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/css/lightMode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/about-popup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/add-box.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/dialog-box.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/dictionary-screen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/edit-box.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/game-screen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/main-screen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/translate-screen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/wordle_endscreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/wordle_howtoplay.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/fxml/wordle_statistics.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/backspace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/button_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/button_minimize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/copy_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/customImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/darklight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/dictionary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/dictionary_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/edit_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/google_translate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/google_translate_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/information_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/popUpBG_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/popUpBG_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/soundOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/soundOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/speaker_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/speaker_played.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/swap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/theme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/wordle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/wordle_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/wordle_help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/wordle_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/images/wordle_statistics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/sounds/bgm.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/sounds/click.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/sounds/popup.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui_package/views/sounds/tab.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +103,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Start.executor": "Run",
+    "Maven.demo [clean].executor": "Run",
+    "Maven.demo [install:install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/oop/demo",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oop\demo" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install:install" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,5 +137,16 @@
       <updated>1715883955319</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

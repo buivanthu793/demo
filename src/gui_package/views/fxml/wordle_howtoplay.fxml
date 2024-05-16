@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="280.0" style="-fx-background-color: #f0f7ff; -fx-border-color: #aecaf2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="256.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="12.0" left="12.0" right="12.0" />
+         </BorderPane.margin>
+         <children>
+            <Label text="Ví dụ">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="6.0" />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER_LEFT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="276.0">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="24.0" style="-fx-background-color: #6aaa64;">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Pane>
+                  <Label prefHeight="20.0" prefWidth="240.0" text="Chữ cái có ở trong từ và ở đúng vị trí.">
+                     <HBox.margin>
+                        <Insets left="4.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="30.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="276.0">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="24.0" style="-fx-background-color: #c9b458;">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Pane>
+                  <Label prefHeight="20.0" prefWidth="240.0" text="Chữ cái có ở trong từ nhưng ở sai vị trí.">
+                     <HBox.margin>
+                        <Insets left="4.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="60.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="276.0">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="24.0" style="-fx-background-color: #787c7e;">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Pane>
+                  <Label prefHeight="20.0" prefWidth="240.0" text="Chữ cái không có ở trong từ.">
+                     <HBox.margin>
+                        <Insets left="4.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <VBox minHeight="-Infinity" prefHeight="130.0" prefWidth="256.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Hướng dẫn chơi">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label text="Đoán từ trong 6 lần thử.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label maxHeight="-Infinity" minHeight="-Infinity" prefHeight="64.0" prefWidth="300.0" text="• Từ đoán phải là một từ có 5 chữ cái.&#10;• Màu của ô sẽ thay đổi tùy theo từ đoán&#10;sát từ đúng như thế nào.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets left="12.0" right="12.0" top="12.0" />
+         </BorderPane.margin>
+      </VBox>
+   </top>
+</BorderPane>

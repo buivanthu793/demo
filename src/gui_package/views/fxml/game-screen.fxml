@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="gameBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="698.0" prefWidth="968.0" styleClass="borderPane" stylesheets="@../css/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_package.controllers.GameController">
+   <center>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="600.0" styleClass="gameVBox" stylesheets="@../css/lightMode.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="4.0">
+               <children>
+                  <GridPane hgap="4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="404.0" prefWidth="336.0" vgap="4.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="64.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="64.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="64.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="64.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="64.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;">
+                           <children>
+                              <Label fx:id="c11">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="1">
+                           <children>
+                              <Label fx:id="c12">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="78.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="2">
+                           <children>
+                              <Label fx:id="c13">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="146.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="3">
+                           <children>
+                              <Label fx:id="c14">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="214.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="4">
+                           <children>
+                              <Label fx:id="c15">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="282.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.rowIndex="1">
+                           <children>
+                              <Label fx:id="c21">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="10.0" layoutY="78.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <children>
+                              <Label fx:id="c22">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="78.0" layoutY="78.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <children>
+                              <Label fx:id="c23">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="146.0" layoutY="78.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                           <children>
+                              <Label fx:id="c24">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="214.0" layoutY="78.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                           <children>
+                              <Label fx:id="c25">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="10.0" layoutY="78.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.rowIndex="2">
+                           <children>
+                              <Label fx:id="c31">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="10.0" layoutY="146.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <children>
+                              <Label fx:id="c32">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="78.0" layoutY="146.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <children>
+                              <Label fx:id="c33">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="146.0" layoutY="146.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                           <children>
+                              <Label fx:id="c34">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="214.0" layoutY="146.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                           <children>
+                              <Label fx:id="c35">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="282.0" layoutY="146.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.rowIndex="3">
+                           <children>
+                              <Label fx:id="c41">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="10.0" layoutY="214.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <children>
+                              <Label fx:id="c42">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="78.0" layoutY="214.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <children>
+                              <Label fx:id="c43">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="146.0" layoutY="214.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                           <children>
+                              <Label fx:id="c44">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="214.0" layoutY="214.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                           <children>
+                              <Label fx:id="c45">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="282.0" layoutY="282.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.rowIndex="4">
+                           <children>
+                              <Label fx:id="c51">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="10.0" layoutY="282.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <children>
+                              <Label fx:id="c52">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="78.0" layoutY="282.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                           <children>
+                              <Label fx:id="c53">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="146.0" layoutY="282.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <children>
+                              <Label fx:id="c54">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="214.0" layoutY="282.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                           <children>
+                              <Label fx:id="c55">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="282.0" layoutY="282.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.rowIndex="5">
+                           <children>
+                              <Label fx:id="c61">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="10.0" layoutY="350.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <children>
+                              <Label fx:id="c62" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="78.0" layoutY="350.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                           <children>
+                              <Label fx:id="c63" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="146.0" layoutY="350.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                           <children>
+                              <Label fx:id="c64" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <StackPane layoutX="214.0" layoutY="350.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-color: #d3d6da; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                           <children>
+                              <Label fx:id="c65" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </children>
+                  </GridPane>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#restartGame" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/wordle_refresh.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="12.0" top="8.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="350.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#gameInfo" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/wordle_help.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="2.0" top="8.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="394.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#userStatistic" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/wordle_statistics.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets left="2.0" top="8.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets left="132.0" top="12.0" />
+               </VBox.margin>
+            </HBox>
+            <GridPane hgap="4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="516.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <VBox.margin>
+                  <Insets left="42.0" top="16.0" />
+               </VBox.margin>
+               <children>
+                  <StackPane fx:id="Q" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="66.0" prefWidth="62.0" style="-fx-text-fill: black;" text="Q" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="W" layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="1">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#mouseClick" prefHeight="58.0" prefWidth="163.0" style="-fx-text-fill: black;" text="W" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="E" layoutX="62.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="2">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#mouseClick" prefHeight="87.0" prefWidth="57.0" style="-fx-text-fill: black;" text="E" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="R" layoutX="114.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="3">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="123.0" prefWidth="119.0" style="-fx-text-fill: black;" text="R" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="T" layoutX="166.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="4">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="97.0" prefWidth="109.0" style="-fx-text-fill: black;" text="T" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="Y" layoutX="218.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="5">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="101.0" prefWidth="110.0" style="-fx-text-fill: black;" text="Y" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="U" layoutX="270.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="6">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="93.0" prefWidth="76.0" style="-fx-text-fill: black;" text="U">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="I" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="7">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="112.0" prefWidth="96.0" style="-fx-text-fill: black;" text="I" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="O" layoutX="374.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="8">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="94.0" prefWidth="67.0" style="-fx-text-fill: black;" text="O" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="P" layoutX="426.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="9">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="106.0" prefWidth="82.0" style="-fx-text-fill: black;" text="P" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+               </children>
+            </GridPane>
+            <GridPane hgap="4.0" layoutX="10.0" layoutY="430.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="464.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <VBox.margin>
+                  <Insets left="68.0" top="4.0" />
+               </VBox.margin>
+               <children>
+                  <StackPane fx:id="A" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="95.0" prefWidth="79.0" style="-fx-text-fill: black;" text="A" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="S" layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="1">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="82.0" prefWidth="62.0" style="-fx-text-fill: black;" text="S" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="D" layoutX="62.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="2">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="86.0" prefWidth="79.0" style="-fx-text-fill: black;" text="D" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="F" layoutX="114.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="3">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="91.0" prefWidth="86.0" style="-fx-text-fill: black;" text="F" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="G" layoutX="166.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="4">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="121.0" prefWidth="97.0" style="-fx-text-fill: black;" text="G" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="H" layoutX="218.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="5">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="104.0" prefWidth="73.0" style="-fx-text-fill: black;" text="H" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="J" layoutX="270.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="6">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="138.0" prefWidth="106.0" style="-fx-text-fill: black;" text="J" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="K" layoutX="322.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="7">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="123.0" prefWidth="109.0" style="-fx-text-fill: black;" text="K" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="L" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5; -fx-text-fill: black;" GridPane.columnIndex="8">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="110.0" prefWidth="99.0" style="-fx-text-fill: black;" text="L" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+               </children>
+            </GridPane>
+            <GridPane hgap="4.0" layoutX="10.0" layoutY="490.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="528.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="80.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="48.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="80.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <VBox.margin>
+                  <Insets bottom="8.0" left="36.0" top="4.0" />
+               </VBox.margin>
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="93.0" prefWidth="146.0" style="-fx-text-fill: black;" text="Enter">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="Z" layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="1">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="112.0" prefWidth="128.0" style="-fx-text-fill: black;" text="Z">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="X" layoutX="94.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="2">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="105.0" prefWidth="86.0" style="-fx-text-fill: black;" text="X">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="C" layoutX="146.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="3">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="106.0" prefWidth="86.0" style="-fx-text-fill: black;" text="C">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="V" layoutX="198.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="4">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="110.0" prefWidth="95.0" style="-fx-text-fill: black;" text="V">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="B" layoutX="250.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="5">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="107.0" prefWidth="95.0" style="-fx-text-fill: black;" text="B">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="N" layoutX="302.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="6">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="98.0" prefWidth="97.0" style="-fx-text-fill: black;" text="N">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="M" layoutX="354.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="7">
+                     <children>
+                        <Label alignment="CENTER" onMouseClicked="#mouseClick" prefHeight="141.0" prefWidth="135.0" style="-fx-text-fill: black;" text="M">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+                  <StackPane fx:id="backspaceButton" layoutX="406.0" layoutY="10.0" onMouseClicked="#mouseClick" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #d3d6da; -fx-background-radius: 5;" GridPane.columnIndex="8">
+                     <children>
+                        <ImageView fx:id="backspaceButton" fitHeight="28.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/backspace.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </StackPane>
+               </children>
+            </GridPane>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="16.0" top="24.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <top>
+      <HBox minHeight="-Infinity" prefHeight="40.0" prefWidth="968.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="BOTTOM_CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="800.0" text="WORDLE">
+               <HBox.margin>
+                  <Insets left="80.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Cambria Bold" size="32.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets left="8.0" right="8.0" top="8.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+</BorderPane>

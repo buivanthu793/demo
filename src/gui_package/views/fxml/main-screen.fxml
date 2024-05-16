@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" styleClass="borderPane" stylesheets="@../css/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_package.controllers.MainController">
+    <top>
+        <HBox alignment="CENTER" onMouseDragged="#titleBarDragged" onMousePressed="#titleBarPressed" prefHeight="40.0" prefWidth="200.0" styleClass="titleBar" stylesheets="@../css/lightMode.css" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                    <HBox.margin>
+                        <Insets left="4.0" />
+                    </HBox.margin>
+                    <image>
+                        <Image url="@../images/logo.png" />
+                    </image>
+                </ImageView>
+                <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="1024.0" text="Dictionary Ultra Pro Max" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="4.0" />
+                    </HBox.margin>
+                </Label>
+                <Button id="button_minimize" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#minimized" prefHeight="32.0" prefWidth="48.0" stylesheets="@../css/lightMode.css">
+                    <HBox.margin>
+                        <Insets top="-8.0" />
+                    </HBox.margin>
+                    <graphic>
+                        <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/button_minimize.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button id="button_close" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#close" onMouseEntered="#close_button_highlight" onMouseExited="#close_button_reset" prefHeight="32.0" prefWidth="48.0" stylesheets="@../css/lightMode.css">
+                    <HBox.margin>
+                        <Insets top="-8.0" />
+                    </HBox.margin>
+                    <graphic>
+                        <ImageView fx:id="button_close_icon" fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/button_close.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </children>
+        </HBox>
+    </top>
+    <bottom>
+        <HBox alignment="TOP_RIGHT" prefHeight="30.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+            <children>
+            <Label opacity="0.25" text="Application by OOPtimistic team" textFill="#2638ff">
+               <font>
+                  <Font name="Century Gothic Bold" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="16.0" />
+               </HBox.margin>
+            </Label>
+            </children>
+        </HBox>
+    </bottom>
+    <center>
+        <Pane fx:id="WorkPane" layoutY="40.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="customImage" fitHeight="240.0" fitWidth="240.0" layoutX="728.0" layoutY="460.0" opacity="0.25" preserveRatio="true">
+               <image>
+                  <Image url="@../images/customImage.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+    </center>
+   <right>
+      <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="200.0" prefWidth="50.0" spacing="24.0" BorderPane.alignment="CENTER">
+         <children>
+                <Button fx:id="ButtonDictionary" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#dictionaryScene" prefHeight="36.0" prefWidth="36.0" styleClass="tabButton" stylesheets="@../css/lightMode.css">
+                    <tooltip>
+                        <Tooltip styleClass="toolTip" text="Tra cứu từ điển">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Tooltip>
+                    </tooltip>
+                    <graphic>
+                        <ImageView blendMode="SCREEN" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/dictionary.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+                </Button>
+                <Button fx:id="ButtonGame" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#gameScene" prefHeight="36.0" prefWidth="36.0" styleClass="tabButton" stylesheets="@../css/lightMode.css">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/wordle.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <tooltip>
+                        <Tooltip styleClass="toolTip" text="Game rèn từ vựng">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Tooltip>
+                    </tooltip>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="ButtonTranslate" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#translateScene" prefHeight="36.0" prefWidth="36.0" styleClass="tabButton" stylesheets="@../css/lightMode.css">
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/google_translate.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <tooltip>
+                        <Tooltip styleClass="toolTip" text="Dịch văn bản">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Tooltip>
+                    </tooltip>
+                </Button>
+                <Button fx:id="ButtonTheme" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#changeTheme" prefHeight="36.0" prefWidth="36.0" styleClass="tabButton" stylesheets="@../css/lightMode.css">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/darklight.jpg" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="0.12" />
+                            </effect>
+                        </ImageView>
+                    </graphic>
+                    <tooltip>
+                        <Tooltip styleClass="toolTip" text="Đổi giao diện sáng/tối">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Tooltip>
+                    </tooltip>
+                </Button>
+                <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#musicStateChange" prefHeight="36.0" prefWidth="36.0" styleClass="tabButton" stylesheets="@../css/lightMode.css">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <graphic>
+                        <ImageView fx:id="musicChangeImage" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/soundOff.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="0.12" />
+                            </effect>
+                        </ImageView>
+                    </graphic>
+                    <tooltip>
+                        <Tooltip styleClass="toolTip" text="Tắt / Bật âm">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Tooltip>
+                    </tooltip>
+                </Button>
+                <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#aboutPopup" prefHeight="36.0" prefWidth="36.0" styleClass="tabButton" stylesheets="@../css/lightMode.css">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/information.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </graphic>
+                    <tooltip>
+                        <Tooltip styleClass="toolTip" text="Về chúng tôi">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Tooltip>
+                    </tooltip>
+                </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets right="6.0" />
+         </BorderPane.margin>
+      </VBox>
+   </right>
+</BorderPane>
